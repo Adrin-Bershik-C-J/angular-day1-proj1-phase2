@@ -1,0 +1,51 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #b71c1c;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.bug-list {
+  max-width: 500px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.bug-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: #333;
+}
+
+.bug-item.open {
+  background: #ffebee;
+  border-left: 6px solid #e53935;
+}
+
+.bug-item.in-progress {
+  background: #fffde7;
+  border-left: 6px solid #fbc02d;
+}
+
+.bug-item.resolved {
+  background: #e8f5e9;
+  border-left: 6px solid #43a047;
+}
