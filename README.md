@@ -1,59 +1,117 @@
-# Angularday1proj1phase1
+# Angular Day 1 Project - Phase 2
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
+A simple Angular application demonstrating basic routing and component structure, built as part of Angular learning journey.
 
-## Development server
+## 🚀 Features
 
-To start a local development server, run:
+- **Routing**: Navigation between Dashboard, Login, and Bug pages
+- **Component Architecture**: Standalone components with separate HTML, CSS, and TypeScript files
+- **Modern Angular**: Built with Angular's latest standalone component approach
+- **Responsive Design**: Clean and modern UI with hover effects
 
-```bash
-ng serve
+## 📁 Project Structure
+
+```
+src/
+├── index.html
+├── main.ts
+├── styles.css
+└── app/
+    ├── app.config.ts
+    ├── app.css
+    ├── app.html
+    ├── app.routes.ts
+    ├── app.spec.ts
+    ├── app.ts
+    └── pages/
+        ├── bug/
+        │   ├── bug.css
+        │   ├── bug.html
+        │   └── bug.ts
+        ├── dashboard/
+        │   ├── dashboard.css
+        │   ├── dashboard.html
+        │   └── dashboard.ts
+        └── login/
+            ├── login.css
+            ├── login.html
+            └── login.ts
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Technologies Used
 
-## Code scaffolding
+- **Angular 17+** - Frontend framework
+- **TypeScript** - Programming language
+- **CSS3** - Styling
+- **Angular Router** - Navigation
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📦 Installation
 
-```bash
-ng generate component component-name
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Adrin-Bershik-C-J/angular-day1-proj1-phase2.git
+   cd angular-day1-proj1-phase1
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-ng generate --help
-```
+3. Start the development server:
+   ```bash
+   ng serve
+   ```
 
-## Building
+4. Open your browser and navigate to `http://localhost:4200`
 
-To build the project run:
+## 🎯 Available Routes
 
-```bash
-ng build
-```
+- `/dashboard` - Main dashboard page (default route)
+- `/login` - Login page
+- `/bug` - Bug tracking page
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🔧 Development Commands
 
-## Running unit tests
+- `ng serve` - Start development server
+- `ng build` - Build the project for production
+- `ng test` - Run unit tests
+- `ng lint` - Run linting
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📝 Components Overview
 
-```bash
-ng test
-```
+### AppComponent
+- Main application component with navigation
+- Uses Angular signals for reactive title management
+- Implements router outlet for page navigation
 
-## Running end-to-end tests
+### Dashboard Component
+- Welcome page displaying project introduction
+- Simple layout with heading and description
 
-For end-to-end (e2e) testing, run:
+### Login Component
+- Placeholder login page (to be implemented)
 
-```bash
-ng e2e
-```
+### Bug Component
+- Placeholder bug tracking page (to be implemented)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🎨 Styling
 
-## Additional Resources
+The application features a modern design with:
+- Dark navigation bar with smooth hover transitions
+- Centered layout and clean typography
+- Active route highlighting
+- Consistent color scheme using professional palette
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🤝 Contributing
+
+This is a learning project. Feel free to fork and experiment with your own features!
+
+## 👨‍💻 Author
+
+**Adrin Bershik C J**
+- GitHub: [@Adrin-Bershik-C-J](https://github.com/Adrin-Bershik-C-J)
+
+---
+
+*This project is part of Angular learning series - Day 1, Project 1, Phase 2*
